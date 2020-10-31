@@ -1,39 +1,37 @@
-<p align="center">
-    <img height="150px" alt="" src="">
-</p>
+# django-todolist
 
-<h1 align="center">
-    Title
-</h1>
+Simple todolist write in django for general use and pipeline automation..
 
-<h2 align="center">
-    Subtitle (Compiled by Hugo Pfeffer)
-</h2>
+  - Be kind with my baby
 
-<p align="center">
-    <!-- <img alt="Made By" src="https://img.shields.io/badge/Made%20By-Hugo%20Pfeffer-red">
-    <img alt="Top Languages" src="https://img.shields.io/github/languages/top/HugoPfeffer/kovaaks-stats">
-    <img alt="License" src="https://img.shields.io/github/license/HugoPfeffer/vagrant-ansible"> -->
-</p>
+### Quick and free tip:
 
-</br>
-</br>
-<h2> About the project </h2>
-
-Lorem ipsum
+> With great power comes great responsibility
 
 
-</br>
-<h2>Requirements</h2>
-<ul>
-    <li>Pandas</li>
-    <li>Nyan cat</li>
-</ul>
-</br>
+### Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+* [Django] - Django makes it easier to build better Web apps more quickly and with less code.
+* [Python-Venv] - The venv module provides support for creating lightweight “virtual environments” with their own site directories
+* [MySQL] - MySQL is an Oracle-backed open source relational database management system (RDBMS) based on Structured Query Language (SQL).
 
 
+### Installation
+
+Install the dependencies and start the server.
+
+```sh
+$ cd django-todolist
+$ pip install -r requirements.txt
+$ python manage.py migrate # Running the migrations
+$ python manage.py createsuperuser # Create a superuser
+$ python manage.py runserver
+```
 
 
+License
+----
 
-
-
+GPL
